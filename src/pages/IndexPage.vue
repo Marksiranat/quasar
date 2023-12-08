@@ -4,10 +4,10 @@
       <q-input
         filled
         v-model="name"
-        label="Your name *"
-        hint="Name and surname"
+        label="นาย ศิระณัฐ จันทะกี *"
+        hint="Siranat Jantakee"
         lazy-rules
-        :rules="[(val) => (val && val.length > 0) || 'Please type something']"
+        :rules="[(val) => (val && val.length > 0) || 'กรุณาอย่าหล่อเกินผม']"
       />
       <q-input
         filled

@@ -49,6 +49,7 @@ export default {
     const $q = useQuasar();
 
     const name = ref(null);
+    const Lastname = ref(null);
     const age = ref(null);
     const accept = ref(false);
 
